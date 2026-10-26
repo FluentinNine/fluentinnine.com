@@ -130,6 +130,9 @@ h3 { font-size: 26px; }
 .price-line { margin: 0; font-family: var(--serif); font-size: clamp(36px, 5vw, 48px); color: var(--plum-deep); line-height: 1.1; }
 .price-line strong { font-size: 62px; font-weight: 600; color: var(--plum); }
 .price-card p:not(.price-line) { margin: 14px 0 0; font-size: 17px; }
+.price-card .price-label { margin: 8px 0 0; font-size: 12px; font-weight: 600; letter-spacing: 0.2em; color: var(--copper); }
+.price-card .notes { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); max-width: none; }
+.price-card .notes p { margin: 0; font-size: 16px; }
 .notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 48px; margin-top: 30px; padding-top: 26px; border-top: 1px solid var(--line); max-width: 860px; }
 .notes p { margin: 0; font-size: 16px; }
 .notes strong { color: var(--plum); font-weight: 600; }
