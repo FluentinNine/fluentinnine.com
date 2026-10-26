@@ -61,7 +61,7 @@ h3 { font-size: 26px; }
 .hero { text-align: center; padding: 64px 0 56px; }
 .hero-mark { width: min(260px, 60vw); margin: 0 auto 8px; }
 .hero h1 { font-size: clamp(52px, 9vw, 88px); }
-.hero .tag { margin: 14px 0 0; font-size: 13px; font-weight: 600; letter-spacing: 0.32em; color: var(--plum); }
+.hero .tag { margin: 14px 0 0; font-size: clamp(14px, 2vw, 17px); font-weight: 600; letter-spacing: 0.32em; color: var(--plum); }
 .divider { display: flex; align-items: center; justify-content: center; gap: 14px; margin: 30px auto 26px; max-width: 320px; }
 .divider::before, .divider::after { content: ""; flex: 1; height: 1px; background: var(--copper); opacity: 0.7; }
 .divider i { width: 7px; height: 7px; border: 1px solid var(--copper); transform: rotate(45deg); }
